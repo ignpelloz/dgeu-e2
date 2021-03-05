@@ -13,7 +13,6 @@
 
 // Los huecos amarillos del html deben ser anuncios, que en la web normal no veo debido al adblocker?
 
-import duaLogo from './assets/img/upa-300x276.jpg'
 import olavideLogo from './assets/img/olavide.jpg'
 import ualLogo from './assets/img/ual.jpg'
 import ucoLogo from './assets/img/uco.jpg'
@@ -25,6 +24,10 @@ import umaLogo from './assets/img/uma.jpg'
 import univaLogo from './assets/img/univa.jpg'
 import usevillaLogo from './assets/img/usevilla.jpg'
 import Footer from './components/Footer'
+import Menu from './components/Menu'
+import TopHeader from './components/TopHeader'
+import MainNav from './components/MainNav'
+import Introduction from './components/Introduction'
 
 
 function App() {
@@ -32,289 +35,40 @@ function App() {
     <body className="home page-template-default page page-id-15 wp-embed-responsive global-layout-no-sidebar slider-disabled">
 
       <div id="page" className="hfeed site">
-        <a className="skip-link screen-reader-text" href="https://www.distritounicoandaluz.org/#content">Skip to content</a>		<div className="mobile-nav-wrap">
+        <a className="skip-link screen-reader-text" href="https://www.distritounicoandaluz.org/#content">Skip to content</a>		
+        <div className="mobile-nav-wrap">
           <a id="mobile-trigger" href="https://www.distritounicoandaluz.org/#mob-menu"><i className="fa fa-bars"></i></a>
-          
-          <div id="mob-menu">
-            <ul id="menu-universidades" className="menu"><li id="menu-item-146" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-146"><a title="UAL" href="https://www.distritounicoandaluz.org/universidad-de-almeria/">UAL</a>
-              <ul className="sub-menu">
-                <li id="menu-item-433" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-433"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ciencias-ambientales-en-universidad-de-almeria/">Ciencias Ambientales</a></li>
-                <li id="menu-item-428" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-educacion-infantil-en-universidad-de-almeria/">Educación Infantil</a></li>
-                <li id="menu-item-432" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-432"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-agricola-en-universidad-de-almeria/">Ingeniería Agrícola</a></li>
-                <li id="menu-item-431" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-electronica-industrial-en-universidad-de-almeria/">Ingeniería Electrónica</a></li>
-                <li id="menu-item-430" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-informatica-en-universidad-de-almeria/">Ingeniería Informática</a></li>
-                <li id="menu-item-429" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-mecanica-en-universidad-de-almeria/">Ingeniería Mecánica</a></li>
-                <li id="menu-item-427" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-quimica-industrial-en-universidad-de-almeria/">Ingeniería Química Industrial</a></li>
-                <li id="menu-item-426" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-matematicas-en-universidad-de-almeria/">Matemáticas</a></li>
-                <li id="menu-item-425" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-425"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-quimica-en-universidad-de-almeria/">Química</a></li>
-              </ul>
-            </li>
-              <li id="menu-item-145" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-145"><a title="UCA" href="https://www.distritounicoandaluz.org/universidad-de-cadiz/">UCA</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-467" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-administracion-y-direccion-de-empresas-en-universidad-de-cadiz/">Administración y Dirección de Empresas</a></li>
-                  <li id="menu-item-539" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-539"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-arquitectura-naval-e-ingenieria-maritima-en-universidad-de-cadiz/">Arquitectura Naval e Ingeniería Marítima</a></li>
-                  <li id="menu-item-538" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-538"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-biotecnologia-en-universidad-de-cadiz/">Biotecnología</a></li>
-                  <li id="menu-item-730" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-730"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-educacion-infantil-en-la-universidad-de-cadiz/">Educación Infantil</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-222" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-222"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/">UCO</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-581" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-administracion-y-direccion-de-empresas-en-la-universidad-de-cordoba/">Administración y Dirección de Empresas</a></li>
-                  <li id="menu-item-791" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-791"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-ciencias-ambientales-en-la-universidad-de-cordoba/">Ciencias Ambientales</a></li>
-                  <li id="menu-item-466" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-466"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-medicina-en-la-universidad-de-cordoba/">Medicina</a></li>
-                  <li id="menu-item-580" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-relaciones-laborales-y-recursos-humanos-en-la-universidad-de-cordoba/">Relaciones Laborales y RRHH</a></li>
-                  <li id="menu-item-792" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-792"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-veterinaria-en-la-universidad-de-cordoba/">Veterinaria</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-204" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-204"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/">UGR</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-724" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-administracion-y-direccion-de-empresas-en-universidad-de-granada/">Administración y Dirección de Empresas</a></li>
-                  <li id="menu-item-480" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-bellas-artes-en-la-universidad-de-granada/">Bellas Artes</a></li>
-                  <li id="menu-item-560" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-biologia-en-la-universidad-de-granada/">Biología</a></li>
-                  <li id="menu-item-726" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-ciencias-politicas-y-de-la-administracion-en-universidad-de-granada/">Ciencias Políticas y de la Administración</a></li>
-                  <li id="menu-item-723" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-educacion-infantil-en-la-universidad-de-granada/">Educación Infantil</a></li>
-                  <li id="menu-item-725" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-relaciones-laborales-y-recursos-humanos-en-universidad-de-granada/">Relaciones Laborales y Recursos Humanos</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-261" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-261"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/">UJAEN</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-637" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"><a title="Grado en Biología en Universidad de Jaén" href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-biologia-en-universidad-de-jaen/">Biología</a></li>
-                  <li id="menu-item-501" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-501"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-derecho-en-universidad-de-jaen/">Derecho</a></li>
-                  <li id="menu-item-559" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-educacion-infantil-en-la-universidad-de-jaen/">Educación Infantil</a></li>
-                  <li id="menu-item-795" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-795"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-enfermeria-en-la-universidad-de-jaen/">Enfermería</a></li>
-                  <li id="menu-item-636" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"><a title="Grado en Ingeniería Civil en Universidad de Jaén" href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-ingenieria-civil-en-universidad-de-jaen/">Ingeniería Civil</a></li>
-                  <li id="menu-item-796" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-796"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-ingenieria-de-organizacion-industrial-en-la-universidad-de-jaen/">Ingeniería de Organización Industrial</a></li>
-                  <li id="menu-item-794" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-794"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-trabajo-social-en-la-universidad-de-jaen/">Trabajo Social</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-243" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-243"><a href="https://www.distritounicoandaluz.org/universidad-de-huelva/">UHU</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-500" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-500"><a href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-ciencias-ambientales-en-universidad-de-huelva/">Ciencias Ambientales</a></li>
-                  <li id="menu-item-793" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-793"><a href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-finanzas-y-contabilidad-en-la-universidad-de-huelva/">Finanzas y Contabilidad</a></li>
-                  <li id="menu-item-595" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-595"><a title="Grado en Historia en la Universidad de Huelva" href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-historia-en-la-universidad-de-huelva/">Historia</a></li>
-                  <li id="menu-item-594" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-594"><a title="Grado en Psicología en la Universidad de Huelva" href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-psicologia-en-la-universidad-de-huelva/">Psicología</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-357" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-357"><a title="Universidad de Malaga" href="https://www.distritounicoandaluz.org/universidad-de-malaga/">UMA</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-727" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-administracion-y-direccion-de-empresas-en-universidad-de-malaga/">Administración y Dirección de Empresas</a></li>
-                  <li id="menu-item-797" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-797"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-bellas-artes-en-la-universidad-de-malaga/">Bellas Artes</a></li>
-                  <li id="menu-item-728" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-728"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-educacion-social-en-la-universidad-de-malaga/">Educación Social</a></li>
-                  <li id="menu-item-479" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-periodismo-en-la-universidad-de-malaga/">Periodismo</a></li>
-                  <li id="menu-item-623" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-matematicas-en-la-universidad-de-malaga/">Matemáticas</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-265" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-265"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/">UPO</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-722" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-administracion-y-direccion-de-empresas-en-la-universidad-pablo-de-olavide/">Administración y Dirección de Empresas</a></li>
-                  <li id="menu-item-720" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-biotecnologia-en-universidad-pablo-de-olavide/">Biotecnología</a></li>
-                  <li id="menu-item-721" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-humanidades-en-la-universidad-pablo-de-olavide/">Humanidades</a></li>
-                  <li id="menu-item-512" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-sociologia-en-la-universidad-pablo-de-olavide/">Sociología</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-318" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-318"><a title="Universidad de Sevilla" href="https://www.distritounicoandaluz.org/universidad-de-sevilla/">US</a>
-                <ul className="sub-menu">
-                  <li id="menu-item-621" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-621"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-antropologia-social-y-cultural-en-la-universidad-de-sevilla/">Antropología</a></li>
-                  <li id="menu-item-620" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-620"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-fundamentos-de-arquitectura-en-la-universidad-de-sevilla/">Arquitectura</a></li>
-                  <li id="menu-item-622" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-622"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-criminologia-en-la-universidad-de-sevilla/">Criminología</a></li>
-                  <li id="menu-item-513" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-ingenieria-aeroespacial-en-la-universidad-de-sevilla/">Ingeniería Aeroespacial</a></li>
-                  <li id="menu-item-729" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-729"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-ingenieria-electronica-industrial-en-universidad-de-sevilla/">Ingeniería Electrónica Industrial</a></li>
-                </ul>
-              </li>
-            </ul>		
-          </div>
+          <Menu/>
           <a id="mobile-trigger2" href="https://www.distritounicoandaluz.org/#mob-menu2"><i className="fa fa-bars"></i></a>
-          
           {/*REMOVED 1 FROM HERE*/}
-
-
         </div>
-
-        <div id="tophead">
-          <div className="container">
-
-
-            <div id="top-nav">
-              <nav className="top-navigation"><ul id="menu-unico-1" className="menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-15 current_page_item menu-item-30"><a title="Home page" href="https://www.distritounicoandaluz.org/" aria-current="page">Principal</a></li>
-                <li className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-910"><a href="https://www.distritounicoandaluz.org/category/noticias/">Noticias</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a title="Preinscripción en el distrito único andaluz" href="https://www.distritounicoandaluz.org/distrito-unico-andaluz-preinscripcion/">Preinscripción</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a title="Selectividad en el distrito unico andaluz" href="https://www.distritounicoandaluz.org/distrito-unico-andaluz-selectividad/">Selectividad</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://www.distritounicoandaluz.org/distrito-unico-andaluz-automatricula/">Automatrícula</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://www.distritounicoandaluz.org/distrito-unico-andaluz-examenes/">Examenes</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://www.distritounicoandaluz.org/distrito-unico-andaluz-becas/">Becas</a></li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://www.distritounicoandaluz.org/distrito-unico-andaluz-master/">Máster</a></li>
-              </ul></nav>				
-              
-            </div>
-
-          </div>
-        </div>
-
-
-        <header id="masthead" className="site-header" role="banner"><div className="container">			    <div className="site-branding">
-
-
+        <TopHeader/>
+        <header id="masthead" className="site-header" role="banner">
+          <div className="container">			    
+          <div className="site-branding">
           <div id="site-identity">
             <h1 className="site-title"><a href="https://www.distritounicoandaluz.org/" rel="home">Distrito Unico Andaluz</a></h1>
           </div>
-        </div>
+          </div>
           <div id="quick-contact">
           </div>
-
-          <div id="main-nav">
-            <nav id="site-navigation" className="main-navigation" role="navigation">
-              <div className="wrap-menu-content">
-                <div className="menu-universidades-container"><ul id="primary-menu" className="menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-146"><a title="UAL" href="https://www.distritounicoandaluz.org/universidad-de-almeria/">UAL</a>
-                  <ul className="sub-menu">
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-433"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ciencias-ambientales-en-universidad-de-almeria/">Ciencias Ambientales</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-educacion-infantil-en-universidad-de-almeria/">Educación Infantil</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-432"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-agricola-en-universidad-de-almeria/">Ingeniería Agrícola</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-electronica-industrial-en-universidad-de-almeria/">Ingeniería Electrónica</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-informatica-en-universidad-de-almeria/">Ingeniería Informática</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-mecanica-en-universidad-de-almeria/">Ingeniería Mecánica</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-ingenieria-quimica-industrial-en-universidad-de-almeria/">Ingeniería Química Industrial</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-matematicas-en-universidad-de-almeria/">Matemáticas</a></li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-425"><a href="https://www.distritounicoandaluz.org/universidad-de-almeria/grado-en-quimica-en-universidad-de-almeria/">Química</a></li>
-                  </ul>
-                </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-145"><a title="UCA" href="https://www.distritounicoandaluz.org/universidad-de-cadiz/">UCA</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-administracion-y-direccion-de-empresas-en-universidad-de-cadiz/">Administración y Dirección de Empresas</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-539"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-arquitectura-naval-e-ingenieria-maritima-en-universidad-de-cadiz/">Arquitectura Naval e Ingeniería Marítima</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-538"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-biotecnologia-en-universidad-de-cadiz/">Biotecnología</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-730"><a href="https://www.distritounicoandaluz.org/universidad-de-cadiz/grado-en-educacion-infantil-en-la-universidad-de-cadiz/">Educación Infantil</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-222"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/">UCO</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-581"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-administracion-y-direccion-de-empresas-en-la-universidad-de-cordoba/">Administración y Dirección de Empresas</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-791"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-ciencias-ambientales-en-la-universidad-de-cordoba/">Ciencias Ambientales</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-466"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-medicina-en-la-universidad-de-cordoba/">Medicina</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-relaciones-laborales-y-recursos-humanos-en-la-universidad-de-cordoba/">Relaciones Laborales y RRHH</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-792"><a href="https://www.distritounicoandaluz.org/universidad-de-cordoba/grado-en-veterinaria-en-la-universidad-de-cordoba/">Veterinaria</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-204"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/">UGR</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-administracion-y-direccion-de-empresas-en-universidad-de-granada/">Administración y Dirección de Empresas</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-bellas-artes-en-la-universidad-de-granada/">Bellas Artes</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-biologia-en-la-universidad-de-granada/">Biología</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-ciencias-politicas-y-de-la-administracion-en-universidad-de-granada/">Ciencias Políticas y de la Administración</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-educacion-infantil-en-la-universidad-de-granada/">Educación Infantil</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="https://www.distritounicoandaluz.org/universidad-de-granada/grado-en-relaciones-laborales-y-recursos-humanos-en-universidad-de-granada/">Relaciones Laborales y Recursos Humanos</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-261"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/">UJAEN</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"><a title="Grado en Biología en Universidad de Jaén" href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-biologia-en-universidad-de-jaen/">Biología</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-501"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-derecho-en-universidad-de-jaen/">Derecho</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-educacion-infantil-en-la-universidad-de-jaen/">Educación Infantil</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-795"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-enfermeria-en-la-universidad-de-jaen/">Enfermería</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"><a title="Grado en Ingeniería Civil en Universidad de Jaén" href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-ingenieria-civil-en-universidad-de-jaen/">Ingeniería Civil</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-796"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-ingenieria-de-organizacion-industrial-en-la-universidad-de-jaen/">Ingeniería de Organización Industrial</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-794"><a href="https://www.distritounicoandaluz.org/universidad-de-jaen/grado-en-trabajo-social-en-la-universidad-de-jaen/">Trabajo Social</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-243"><a href="https://www.distritounicoandaluz.org/universidad-de-huelva/">UHU</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-500"><a href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-ciencias-ambientales-en-universidad-de-huelva/">Ciencias Ambientales</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-793"><a href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-finanzas-y-contabilidad-en-la-universidad-de-huelva/">Finanzas y Contabilidad</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-595"><a title="Grado en Historia en la Universidad de Huelva" href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-historia-en-la-universidad-de-huelva/">Historia</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-594"><a title="Grado en Psicología en la Universidad de Huelva" href="https://www.distritounicoandaluz.org/universidad-de-huelva/grado-en-psicologia-en-la-universidad-de-huelva/">Psicología</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-357"><a title="Universidad de Malaga" href="https://www.distritounicoandaluz.org/universidad-de-malaga/">UMA</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-administracion-y-direccion-de-empresas-en-universidad-de-malaga/">Administración y Dirección de Empresas</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-797"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-bellas-artes-en-la-universidad-de-malaga/">Bellas Artes</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-728"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-educacion-social-en-la-universidad-de-malaga/">Educación Social</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-periodismo-en-la-universidad-de-malaga/">Periodismo</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a href="https://www.distritounicoandaluz.org/universidad-de-malaga/grado-en-matematicas-en-la-universidad-de-malaga/">Matemáticas</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-265"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/">UPO</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-administracion-y-direccion-de-empresas-en-la-universidad-pablo-de-olavide/">Administración y Dirección de Empresas</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-biotecnologia-en-universidad-pablo-de-olavide/">Biotecnología</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-humanidades-en-la-universidad-pablo-de-olavide/">Humanidades</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/grado-en-sociologia-en-la-universidad-pablo-de-olavide/">Sociología</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-318"><a title="Universidad de Sevilla" href="https://www.distritounicoandaluz.org/universidad-de-sevilla/">US</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-621"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-antropologia-social-y-cultural-en-la-universidad-de-sevilla/">Antropología</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-620"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-fundamentos-de-arquitectura-en-la-universidad-de-sevilla/">Arquitectura</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-622"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-criminologia-en-la-universidad-de-sevilla/">Criminología</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-ingenieria-aeroespacial-en-la-universidad-de-sevilla/">Ingeniería Aeroespacial</a></li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-729"><a href="https://www.distritounicoandaluz.org/universidad-de-sevilla/grado-en-ingenieria-electronica-industrial-en-universidad-de-sevilla/">Ingeniería Electrónica Industrial</a></li>
-                    </ul>
-                  </li>
-                </ul></div>	            </div>
-            </nav>
-            <div className="header-search-box">
-              <div className="search-box-wrap">
-                <form role="search" method="get" className="search-form" action="https://www.distritounicoandaluz.org/">
-                  <label>
-                    <span className="screen-reader-text">Search for:</span>
-                    <input className="search-field" placeholder="Search …" value="" name="s" type="search" />
-                  </label>
-                  <input className="search-submit" value="" type="submit" />
-                </form>
-              </div>
-            </div>
-          </div>
+          <MainNav/>
         </div>
         </header>
 
         <div id="content" className="site-content">
           <div className="container">
             <div className="inner-wrapper">
-
               <div id="primary" className="content-area">
                 <main id="main" className="site-main" role="main">
-
-
-
                   <article id="post-15" className="post-15 page type-page status-publish hentry">
-
                     <header className="entry-header">
                       <h1 className="entry-title">Distrito Unico Andaluz</h1>
                     </header>
-
                     <div className="entry-content-wrapper">
                       <div className="entry-content">
-
-
-                        <p><strong>Distrito Unico Andaluz</strong>, es un portal informativo no oficial acerca de la <strong>Comisión Distrito Unico Universitario de Andalucía</strong> y está destinado a aquellas personas que desean ingresar a los distintas universidades públicas de la Comunidad, ya sea para cursar carreras de Grado, Másters Universitarios, e Itinerarios Curriculares concretos.</p>
-                        <p><img loading="lazy" className="size-medium wp-image-7675 aligncenter" src={duaLogo} alt="Distrito Unico Andaluz" width="300" height="276" /></p>
-                        <p>A través del sitio del <strong><span style={{ textDecoration: "underline" }}>Distrito Unico Andaluz</span></strong>, los interesados que cumplan con los requisitos de acceso podrán participar en el proceso de admisión (preinscripción) que regula el ingreso en los distintos Centros Universitarios andaluces, cuyo procedimiento y plazos son establecidos anualmente por la Comisión.</p>
-                        <p>De esta forma, por ejemplo, quienes deseen realizar su solicitud ingreso en los estudios de Grado del <strong>Distrito Unico Andaluz</strong>, deben cumplir con una serie de requisitos específicos, como:</p>
-
-                        <ul>
-                          <li>Haber superado la Prueba de Acceso a la universidad.</li>
-                          <li>Haber superado el curso de orientación universitaria (COU) con anterioridad al curso académico 1974/75, el curso Preuniversitario y las Pruebas de Madurez, o el Bachillerato de planes anteriores a 1953.</li>
-                          <li>Estar en posesión del título de Técnico superior de Formación Profesional, Técnico superior de Artes Plásticas y Diseño, o Técnico Deportivo superior, o equivalentes.</li>
-                          <li>Estar en posesión de un título universitario o equivalente que habilite para el acceso a la universidad.</li>
-                          <li>Haber superado la Prueba de Acceso a la universidad para mayores de 25 años.</li>
-                          <li>Estar en posesión de documentación expedida por una universidad Andaluza que acredite el Acceso a la universidad para mayores de 40 años con experiencia laboral o profesional.</li>
-                          <li>Haber superado la Prueba de Acceso a la universidad para Mayores de 45 años en una universidad de Andalucía.</li>
-                          <li>Estudiantes que han cursado planes de estudios de países extranjeros que estén en posesión de documentación acreditativa expedida por organismo o institución española que les habilite para el acceso a la universidad en España.</li>
-                          <li>Cumplir otros requisitos académicos exigidos para el Acceso a la universidad distinto a los anteriores.</li>
-                        </ul>
-                        <p>En este punto se debe aclarar que se denomina acceso al hecho de reunir los requisitos que permiten ingresar al <strong>Distrito Unico Andaluz</strong>, mientras que admisión significa conseguir plaza en la carrera y establecimiento educativo deseados. De ahí que los estudiantes pueden tener acceso a la Universidad, pero no la admisión en los estudios de su elección por no obtener plaza en el proceso de preinscripción.</p>
-                        <h3>Personas que pueden aspirar a ingresar en una universidad de Andalucía:</h3>
-                        <ul>
-                          <li><strong>Estudiantes que proceden del Bachillerato.</strong></li>
-                          <li><strong>Estudiantes procedentes de ciclos formativos de grado superior.</strong></li>
-                          <li><strong>Titulados universitarios.</strong></li>
-                          <li><strong>Los Mayores de 25 años.</strong>&nbsp;En este caso, el único requisito es tener cumplidos los 25 años el 1 de octubre del año en el que se desea acceder, no estar en posesión de la selectividad, un título de técnico o un título universitario y superar la prueba de acceso correspondiente.</li>
-                          <li><strong>Los Mayores de 40 años.</strong>&nbsp;Se accede por experiencia laboral y careciendo de otros requisitos de acceso a la universidad. Es necesario poseer experiencia laboral en un área relacionada con los estudios que se desean cursar. No hay examen, pero se valorará la relevancia de la experiencia laboral aportada y se llevará a cabo una entrevista.</li>
-                          <li><strong>Los Mayores de 45 años.</strong>&nbsp;Abierto a todos los alumnos que desean ingresar en la universidad, y careciendo de otros requisitos de acceso a la universidad, no puedan acreditar experiencia laboral o profesional. Sólo será posible acceder a través de una prueba adaptada.</li>
-                        </ul>
-                        <p>Si una persona cumple más de un requisito de acceso, podrá hacerlos valer simultáneamente en el procedimiento de admisión.</p>
-                        <p>Para acceder a un Máster que se dicte en alguna de las universidades integradas al <strong>Distrito Unico Andaluz</strong>, hay que estar en posesión de un título de grado, licenciado, diplomado o equivalente. No obstante, también se han de cumplir los requisitos de entrada específicos que establezca el Máster de que se trate.</p>
-                        <p>Debe recordarse que, tanto en el caso de los estudios de Grado como para los Másteres oficiales, durante los plazos de presentación de solicitudes, el sitio Web del <strong>Distrito Unico Andaluz</strong> habilita una herramienta on-line para que los interesados puedan realizar el correspondiente trámite, que es exclusivamente de forma telemática.</p>
-
+                        <Introduction/>
+                        
                         {/* REFACTORING SHOULD START HERE */}
 
                         <h3>Distrito Unico Andaluz: Universidades</h3>
@@ -416,32 +170,19 @@ function App() {
                         {/* REFACTORING SHOULD END HERE */}
 
                         <p>Mas info sobre el <strong>Distrito Unico Andaluz</strong>: <a href="https://www.juntadeandalucia.es/economiainnovacionyciencia/sguit/">https://www.juntadeandalucia.es/economiainnovacionyciencia/sguit/</a>#</p>
-
-
                         <div style={{ fontSize: "0px", height: "0px", lineHeight: "0px", margin: "0", padding: "0", clear: "both" }}></div>					</div>
                     </div>
-
                     <footer className="entry-footer">
                     </footer>
                   </article>
-
-
-
-
                 </main>
               </div>
-
-
-
             </div>
           </div>
         </div>
-        
         <Footer/>
-
       </div>
       <a href="https://www.distritounicoandaluz.org/#page" className="scrollup" id="btn-scrollup" style={{ display: "none" }}><i className="fa fa-angle-up"></i></a>
-      
     </body>
   );
 }
