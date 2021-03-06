@@ -101,7 +101,7 @@ class MainNav extends React.Component<{}, {}> {
                     <span className="screen-reader-text">Search for:</span>
                     <input className="search-field" placeholder="Search …" value="" name="s" type="search" />
                   </label>
-                  <input className="search-submit" value="" type="submit" />
+                  <input className="search-submit" value="" type="submit" />
                 </form>
               </div>
             </div>

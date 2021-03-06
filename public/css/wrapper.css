@@ -1,0 +1,66 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: justify;
+    text-justify: inter-word;    
+  }
+  .four {
+    grid-column: 4;
+    grid-row: 2;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .five {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .six {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .seven {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .eight {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .nine {
+    grid-column: 4;
+    grid-row: 1;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .ten {
+    grid-column: 5;
+    grid-row: 2;
+    text-align: justify;
+    text-justify: inter-word;
+  }

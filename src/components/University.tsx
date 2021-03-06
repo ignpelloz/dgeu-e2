@@ -4,43 +4,43 @@ interface IUniversityProps {
     href: string;
     imgSrc: string;
     title: string;
-    imgSize: number;
-    imgClassName: string;
-    uniText: string;                            
+    uniText: string;
+    wrapperItemCounter: string;
 }
 
 interface IUniversityState {
     href: string;
     imgSrc: string;
     title: string;
-    imgSize: number;
-    imgClassName: string;
-    uniText: string;                            
+    uniText: string;
+    wrapperItemCounter: string;
 }
 
 class University extends React.Component<IUniversityProps, IUniversityState> {
-    
-    constructor (props: IUniversityProps){
+
+    constructor(props: IUniversityProps) {
         super(props);
         this.state = {
             href: this.props.href,
             imgSrc: this.props.imgSrc,
             title: this.props.title,
-            imgSize: this.props.imgSize,
             uniText: this.props.uniText,
-            imgClassName: this.props.imgClassName
+            wrapperItemCounter: this.props.wrapperItemCounter,
         };
     }
 
     public render() {
-        return (
-
+        return ( 
+            <div className={this.state.wrapperItemCounter}> {/*TODO: do this with react-jss*/}
             <p>
                 <a href={this.state.href} target="_blank" rel="noopener noreferrer">
-                    <img loading="lazy" className={this.state.imgClassName} title={this.state.title} src={this.state.imgSrc} alt={this.state.title} width={this.state.imgSize} height={this.state.imgSize} />
+                    <img loading="lazy" className="aligncenter" title={this.state.title} src={this.state.imgSrc} alt={this.state.title} width="105" height="105" />
                 </a>
-                {this.state.uniText} 
+                <div dangerouslySetInnerHTML={{
+                    __html: this.state.uniText
+                }}></div>
             </p>
+            </div>
 
         );
     }

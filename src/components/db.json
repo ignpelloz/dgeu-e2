@@ -1,0 +1,153 @@
+[{
+    "university": "Universidad de Almería",
+    "masterDegrees": [
+      "Máster en Agua y Medio Ambiente en Áreas Semiáridas",
+      "Máster en Biotecnología Industrial y Agroalimentaria",
+      "Máster en Evaluación del Cambio Global",
+      "Máster en Genética y Evolución",
+      "Máster en Informática Avanzada e Industrial",
+      "Máster en Innovación y Tecnología de Invernaderos",
+      "Máster en Matemáticas",
+      "Máster en Producción Vegetal en Cultivos Protegidos",
+      "Máster en Química",
+      "Máster en Representación y Diseño en Ingeniería y Arquitectura"
+    ],
+    "bachelorDegrees": [
+      "Grado en Ciencias Ambientales",
+      "Grado en Ingeniería Agrícola",
+      "Grado en Ingeniería Electrónica Industrial",
+      "Grado en Ingeniería Informática",
+      "Grado en Ingeniería Mecánica",
+      "Grado en Ingeniería Química Industrial",
+      "Grado en Matemáticas",
+      "Grado en Química"
+    ]
+  },
+  {
+    "university": "Universidad de Cadiz",
+    "masterDegrees": ["Máster Universitario en Contabilidad y Auditoría",
+      "Máster Universitario en Dirección de Empresas",
+      "Máster Universitario en Creación de Empresas, Nuevos Negocios y Proyectos Innovadores",
+      "Máster en Dirección de los Recursos Humanos"
+    ],
+    "bachelorDegrees": ["Administración y Dirección de Empresas",
+      "Finanzas y Contabilidad"
+    ]
+  },
+  {
+    "university": "Universidad de Córdoba",
+    "masterDegrees": ["Máster en Medicina, Sanidad y Mejora Animal",
+      "Máster en Vitivinicultura en Climas Cálidos (con la U. de Cádiz)",
+      "Máster en Agroalimentación",
+      "Máster en Zootecnia y Gestión Sostenible"
+    ],
+    "bachelorDegrees": ["Veterinaria",
+      "Ciencia y Tecnología de los Alimentos"
+    ]
+  },
+  {
+    "university": "Universidad de Granada",
+    "masterDegrees": ["Máster Universitario en Artes Visuales y Educación",
+      "Máster Universitario en Producción e Investigación en Arte",
+      "Máster Universitario en Dibujo: Creación Artística, Producción y Difusión",
+      "Máster  en Museología (Propio)"
+    ],
+    "bachelorDegrees": ["Bellas Artes",
+      "Conservación y Restauración de Bienes Culturales"
+    ]
+  },
+  {
+    "university": "Universidad de Jaén",
+    "masterDegrees": ["Máster Universitario en Abogacía",
+      "Máster Universitario en Administración de Empresas",
+      "Máster Universitario en Ciencias Jurídicas",
+      "Máster Universitario en Dependencia e Igualdad en la Autonomía Personal",
+      "Máster Universitario en Economía y Desarrollo Territorial (Interuniversitario)",
+      "Máster Universitario en Investigación en Artes, Música y Educación Estética",
+      "Máster Universitario en Marketing y Comportamiento del Consumidor (Interuniversitario)",
+      "Máster Universitario en Prevención de Riesgos Laborales",
+      "Máster Universitario en Profesorado de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanza de Idiomas",
+      "Máster Universitario en Turismo, Arqueología y Naturaleza"
+    ],
+    "bachelorDegrees": ["Doble titulación de Grado en Administración y Dirección de Empresas y Grado en Derecho",
+      "Grado en Administración y Dirección de Empresas",
+      "Grado en Derecho",
+      "Grado en Estadística y Empresa",
+      "Grado en Finanzas y Contabilidad",
+      "Grado en Gestión y Administración Pública",
+      "Grado en Relaciones Laborales y Recursos Humanos",
+      "Grado en Turismo"
+    ]
+  },
+  {
+    "university": "Universidad de Huelva",
+    "masterDegrees": ["Máster Oficial en Ciencia y Tecnología Química",
+      "Máster Oficial Eurheo (European Master In Engineering Rheology)",
+      "Máster Oficial en Formulación y Tecnología del Producto: Aplicación a la Industria Química, Agroalimentaria y Farmaucéutica",
+      "Máster Oficial en Geología y Gestión Ambiental de los Recursos Minerales",
+      "Máster Oficial en Ingeniería e Instrumentación Nuclear",
+      "Máster Oficial en Tecnología Ambiental"
+    ],
+    "bachelorDegrees": ["Ciencias Ambientales",
+      "Geología",
+      "Química",
+      "Doble Grado en Ciencias Ambientales y Geología"
+    ]
+  },
+  {
+    "university": "Universidad de Málaga",
+    "masterDegrees": ["Máster en Biología Celular y Molecular",
+      "Máster en Biotecnología Avanzada",
+      "Máster en Matemáticas",
+      "Máster en Química Avanzada. Preparación y Caracterización de Materiales",
+      "Máster en Recursos Hídricos y Medio Ambiente"
+    ],
+    "bachelorDegrees": ["Grado en Bellas Artes",
+      "Grado en Matemáticas",
+      "Grado en Química",
+      "Grado en Biología",
+      "Grado en Ingeniería Química",
+      "Grado en Ciencias Ambientales",
+      "Grado en Bioquímica"
+    ]
+  },
+  {
+    "university": "",
+    "masterDegrees": ["Máster en Arte, Museos y Gestión del Patrimonio Histórico",
+      "Máster en Ciencias Sociales e Intervención Social",
+      "Máster en Comunicación Internacional, Traducción e Interpretación",
+      "Máster en Derechos Humanos, Interculturalidad y Desarrollo",
+      "Máster en Desarrollo Económico y Sostenibilidad",
+      "Máster en Enseñanza Bilingüe",
+      "Máster en Enseñanza de Español como Lengua Extranjera",
+      "Máster en Historia de América Latina. Mundos Indígenas",
+      "Máster en Historia de Europa, el Mundo Mediterráneo y su Difusión Atlántica: Métodos, Teorías y Nuevas Líneas de Investigación (1492-2000)",
+      "Máster en Religiones y Sociedades"
+    ],
+    "bachelorDegrees": ["Humanidades",
+      "Geografía e Historia",
+      "Traducción e Interpretación",
+      "Doble Humanidades y Traducción e Interpretación"
+    ]
+  },
+  {
+    "university": "",
+    "masterDegrees": ["Máster Universitario en Automática, Robótica y Telemática (R.D.1393/07)",
+      "Máster Universitario en Diseño Avanzado en Ingeniería Mecánica (R.D.1393/07)",
+      "Máster Universitario en Electrónica, Tratamiento de Señal y Comunicaciones (R.D.1393/07)",
+      "Máster Universitario en Ingeniería Ambiental (R.D.1393/07)",
+      "Máster Universitario en Organización Industrial y Gestión de Empresas (R.D.1393/07)",
+      "Máster Universitario en Sistemas de Energía Eléctrica (R.D.1393/07)",
+      "Máster Universitario en Sistemas de Energía Térmica (R.D.1393/07)"
+    ],
+    "bachelorDegrees": ["Grado en Ingeniería Aeroespacial",
+      "Grado en Ingeniería Civil",
+      "Grado en Ingeniería de la Energía por la Un. de Sevilla y la Un. de Málaga",
+      "Grado en Ingeniería de las Tecnologías de Telecomunicación",
+      "Grado en Ingeniería de Organización Industrial por la U. Málaga y U.Sevilla",
+      "Grado en Ingeniería de Tecnologías Industriales",
+      "Grado en Ingeniería Electrónica, Robótica y Mecatrónica (UMA-US)",
+      "Grado en Ingeniería Química"
+    ]
+  }
+]
