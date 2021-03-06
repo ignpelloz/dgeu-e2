@@ -28,7 +28,10 @@ import Menu from './components/Menu'
 import TopHeader from './components/TopHeader'
 import MainNav from './components/MainNav'
 import Introduction from './components/Introduction'
+import University from './components/University'
+//import University from './components/University'
 
+const imgSize: number = 105
 
 function App() {
   return (
@@ -68,26 +71,28 @@ function App() {
                     <div className="entry-content-wrapper">
                       <div className="entry-content">
                         <Introduction/>
-                        
-                        {/* REFACTORING SHOULD START HERE */}
-
+                                                
                         <h3>Distrito Unico Andaluz: Universidades</h3>
                         <p>A través de su acceso al <strong>Distrito Unico Andaluz</strong>, las personas
                         pueden elegir todas las opciones académicas que ofrecen los siguientes
                         Establecimientos Universitarios Públicos de la Comunidad:</p>
 
+                        {/* REFACTORING SHOULD START HERE # TODO: use redux y jss */}
+
+                        <University href={"href"} imgSrc={"imgSrc"} title={"title"} imgSize={105} uniText={"uniText"} imgClassName={"imgClassName"}/>
+
                         <p>
                           <a href="https://www.ual.es/" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="wp-image-7664 aligncenter" title="Universidad de Almería" src={ualLogo} alt="ual" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7664 aligncenter" title="Universidad de Almería" src={ualLogo} alt="Universidad de Almería" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Almeria" href="https://www.distritounicoandaluz.org/universidad-de-almeria/">UNIVERSIDAD DE ALMERÍA</a>:</strong> Creada
                               por el Parlamento Andaluz en 1993. Es una de las universidades más jóvenes de España. Su oferta académica incluye más&nbsp;de 30 titulaciones, más
                               de 37 programas de doctorado (9 de ellos con mención de calidad), 13 másteres oficiales y 12 másteres propios.
-                              </p>
+                        </p>
 
                         <p>
                           <a href="https://www.uca.es/" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="wp-image-7665 aligncenter" title="Universidad de Cádiz" src={ucaLogo} alt="UNIVERSIDAD DE CÁDIZ" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7665 aligncenter" title="Universidad de Cádiz" src={ucaLogo} alt="UNIVERSIDAD DE CÁDIZ" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Cadiz" href="https://www.distritounicoandaluz.org/universidad-de-cadiz/">UNIVERSIDAD DE CADIZ</a>:</strong>&nbsp;Comenzó
                             sus actividades en octubre de 1979.&nbsp;La oferta actual de estudios abarca un total de 41 titulaciones de Grado, 12 Programas Conjuntos de Estudios
@@ -96,7 +101,7 @@ function App() {
 
                         <p>
                           <a href="https://www.uco.es/" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="wp-image-7666 aligncenter" src={ucoLogo} alt="UNIVERSIDAD DE CÓRDOBA" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7666 aligncenter" src={ucoLogo} alt="UNIVERSIDAD DE CÓRDOBA" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Cordoba" href="https://www.distritounicoandaluz.org/universidad-de-cordoba/">UNIVERSIDAD DE CÓRDOBA</a>:</strong>&nbsp;fundada
                             como tal en 1972, sus raíces se remontan a la Universidad Libre que funcionó en la provincia a finales del siglo XIX y cuenta con estudios centenarios como los
@@ -106,7 +111,7 @@ function App() {
 
                         <p>
                           <a href="https://www.ugr.es/" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="wp-image-7667 aligncenter" title="Universidad de Granada" src={ugrLogo} alt="Universidad de Granada" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7667 aligncenter" title="Universidad de Granada" src={ugrLogo} alt="Universidad de Granada" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Granada" href="https://www.distritounicoandaluz.org/universidad-de-granada/">UNIVERSIDAD DE GRANADA</a>:</strong> Fundada
                             en 1531, es la continuadora de una larga tradición docente que enlaza con la de la Madraza del último Reino Nazarí.&nbsp;Actualmente se imparten
@@ -116,7 +121,7 @@ function App() {
 
                         <p>
                           <a href="http://www.uma.es/" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="wp-image-7669 aligncenter" src={umaLogo} alt="Universidad de Málaga" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7669 aligncenter" src={umaLogo} alt="Universidad de Málaga" title="Universidad de Málaga" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Malaga" href="https://www.distritounicoandaluz.org/universidad-de-malaga/">UNIVERSIDAD DE MÁLAGA</a>:</strong> Creada
                             oficialmente en agosto de 1972. Su oferta académica comprende 62 Grados, 43 Programas de Doctorado, 55 Másteres, y 39 Títulos Propios de Postgrado (Máster y Experto).
@@ -124,7 +129,7 @@ function App() {
 
                         <p>
                           <a href="https://www.uhu.es/" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="wp-image-7668 aligncenter" src={uhuLogo} alt="Universidad de Huelva" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7668 aligncenter" src={uhuLogo} alt="Universidad de Huelva" title="Universidad de Huelva" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Huelva" href="https://www.distritounicoandaluz.org/universidad-de-huelva/">UNIVERSIDAD DE HUELVA</a>:&nbsp;</strong>Creada
                             en julio de 1993. Actualmente cuenta con una oferta de 36 titulaciones de Grado, 4 Estudios de Segundo Ciclo, 28 Másteres Oficiales, y 21 Programas de Doctorados.
@@ -132,7 +137,7 @@ function App() {
 
                         <p>
                           <a href="https://www.us.es/">
-                            <img loading="lazy" className="wp-image-7670 aligncenter" src={usevillaLogo} alt="Universidad de Sevilla" width="105" height="105" />
+                            <img loading="lazy" className="wp-image-7670 aligncenter" src={usevillaLogo} alt="Universidad de Sevilla" title="Universidad de Sevilla" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Sevilla" href="https://www.distritounicoandaluz.org/universidad-de-sevilla/">UNIVERSIDAD DE SEVILLA</a>: </strong>Fundada 
                           hace más de quinientos años, es la segunda universidad española en número de estudiantes y la primera de Andalucía. Su oferta académica actual ronda 
@@ -141,7 +146,7 @@ function App() {
 
                         <p>
                           <a href="https://www10.ujaen.es/">
-                            <img loading="lazy" className="size-full wp-image-7673 aligncenter" src={ujaenLogo} alt="Universidad de Jaén" width="105" height="112" />
+                            <img loading="lazy" className="size-full wp-image-7673 aligncenter" src={ujaenLogo} alt="Universidad de Jaén" title="Universidad de Jaén" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad de Jaen" href="https://www.distritounicoandaluz.org/universidad-de-jaen/">UNIVERSIDAD DE JAÉN</a>:&nbsp;</strong>Sus 
                           orígenes&nbsp;se remontan a la creación de la Universidad de Baeza en la Edad Moderna, con un amplio recorrido hasta llegar a 1993 en que inicia su 
@@ -151,7 +156,7 @@ function App() {
 
                         <p>
                           <a href="https://www.upo.es/portal/impe/web/portada" target="_blank" rel="noopener noreferrer">
-                            <img loading="lazy" className="size-full wp-image-7674 aligncenter" title="Universidad Pablo de Olavide" src={olavideLogo} alt="olavide" width="105" height="131" />
+                            <img loading="lazy" className="size-full wp-image-7674 aligncenter" title="Universidad Pablo de Olavide" src={olavideLogo} alt="Universidad Pablo de Olavide" width={imgSize} height={imgSize} />
                           </a>
                           <strong><a title="Universidad Pablo de Olavide" href="https://www.distritounicoandaluz.org/universidad-pablo-de-olavide/">UNIVERSIDAD PABLO DE OLAVIDE</a>:&nbsp;</strong>Ubicada 
                           en Sevilla, esta universidad fue creada en julio de 1997. Su oferta de estudios en la actualidad se distribuye en&nbsp;31 Grados y dobles Grados,&nbsp;40 Másteres 
@@ -160,7 +165,7 @@ function App() {
 
                         <p>
                           <a href="http://www.unia.es/">
-                            <img loading="lazy" className=" wp-image-91 aligncenter" src={univaLogo} alt="univa" width="55" height="58" />
+                            <img loading="lazy" className=" wp-image-91 aligncenter" src={univaLogo} alt="UNIVERSIDAD INTERNACIONAL DE ANDALUCÍA" title="UNIVERSIDAD INTERNACIONAL DE ANDALUCÍA" width={imgSize} height={imgSize} />
                           </a>
                           <strong>UNIVERSIDAD INTERNACIONAL DE ANDALUCÍA: </strong>Fue creada por Ley de la Comunidad Autónoma de Andalucía en 1994. Las enseñanzas que se imparten en esta 
                           universidad son especializadas y de postgrado e incluyen&nbsp;Programas Oficiales de Postgrado, Doctorados, Títulos Propios (Másteres Universitarios y Cursos de 
@@ -186,5 +191,4 @@ function App() {
     </body>
   );
 }
-
 export default App;
