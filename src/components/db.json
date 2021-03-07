@@ -1,5 +1,6 @@
 [{
     "university": "Universidad de Almería",
+    "web":"https://www.ual.es/",
     "degrees": [
       {"name":"Máster en Educación Especial","area":"Otros"},
       {"name":"Máster en Investigación y Evaluación Didáctica en el Aula para el Desarrollo Profesional Docente","area":"Otros"},
@@ -22,6 +23,7 @@
   },
   {
     "university": "Universidad de Cadiz",
+    "web":"https://www.uca.es/",
     "degrees": [
       {"name":"Máster Universitario en Contabilidad y Auditoría","area":"Otros"},
       {"name":"Máster Universitario en Dirección de Empresas","area":"Otros"},
@@ -46,6 +48,7 @@
   },
   {
     "university": "Universidad de Córdoba",
+    "web":"https://www.uco.es/",
     "degrees": [
       {"name":"Máster en Medicina, Sanidad y Mejora Animal","area":"Ciencias"},
       {"name":"Máster en Vitivinicultura en Climas Cálidos (con la U. de Cádiz)","area":"Ciencias"},
@@ -64,6 +67,7 @@
   },
   {
     "university": "Universidad de Granada",
+    "web":"https://www.ugr.es/",
     "degrees": [
       {"name":"Máster Universitario en Artes Visuales y Educación","area":"Otros"},
       {"name":"Máster Universitario en Producción e Investigación en Arte","area":"Otros"},
@@ -87,6 +91,7 @@
   },
   {
     "university": "Universidad de Jaén",
+    "web":"https://www10.ujaen.es/",
     "degrees": [
       {"name":"Máster Universitario en Abogacía","area":"Otros"},
       {"name":"Máster Universitario en Dependencia e Igualdad en la Autonomía Personal","area":"Otros"},
@@ -110,6 +115,7 @@
   },
   {
     "university": "Universidad de Huelva",
+    "web":"https://www.uhu.es/",
     "degrees": [
       {"name":"Máster Oficial en Ciencia y Tecnología Química","area":"Ciencias"},
       {"name":"Máster Oficial Eurheo (European Master In Engineering Rheology)","area":"Ciencias"},
@@ -128,6 +134,7 @@
   },
   {
     "university": "Universidad de Málaga",
+    "web":"http://www.uma.es/",
     "degrees": [
       {"name":"Máster en Biología Celular y Molecular","area":"Ciencias"},
       {"name":"Máster en Matemáticas","area":"Ciencias"},
@@ -146,6 +153,7 @@
   },
   {
     "university": "Universidad Pablo de Olavide",
+    "web":"https://www.upo.es/portal/impe/web/portada",
     "degrees": [
       {"name":"Máster en Comunicación Internacional, Traducción e Interpretación","area":"Otros"},
       {"name":"Máster en Historia de América Latina. Mundos Indígenas","area":"Otros"},
@@ -164,6 +172,7 @@
   },
   {
     "university": "Universidad de Sevilla",
+    "web":"https://www.us.es/",
     "degrees": [
       {"name":"Máster Universitario en Automática, Robótica y Telemática (R.D.1393/07)","area":"Ingeniería"},
       {"name":"Máster Universitario en Ingeniería Ambiental (R.D.1393/07)","area":"Ingeniería"},
