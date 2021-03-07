@@ -1,45 +1,15 @@
 import * as React from 'react';
-import University from '../styledComponents/University';
 
-//import data from './db.json'
-var data = require('./db.json'); // forward slashes will depend on the file location
-
-// TODO:
-// everytime the "search" button is pressed, the state should be updated. The state should be displayed as a table (JSON as a table)
-// In conclussion, every time the search button is pressed, the table should be updated BUT withouth changing the page
-// Or actually, should I create another component and use redux for the comunications? it would be SearchResults
-
-interface IFilterFormProps {
-    /*
-    university: string
-    href: string;
-    imgSrc: string;
-    title: string;
-    uniText: string;
-    wrapperItemCounter: string;
-    */
-    uni: string
-    tipo: string
-    area: string
-    results: [string, string][]
-}
+// DATOS
+var data = require('./db.json'); 
 
 interface IFilterFormState {
-    /*
-    href: string;
-    imgSrc: string;
-    title: string;
-    uniText: string;
-    wrapperItemCounter: string;
-    */
     uni: string
     tipo: string
     area: string
     results: [string, string][]
 }
 
-
-//class FilterForm extends React.Component<IFilterFormProps, IFilterFormState> {
 class FilterForm extends React.Component<{}, IFilterFormState> {
 
     constructor(props: {}) {
@@ -51,7 +21,6 @@ class FilterForm extends React.Component<{}, IFilterFormState> {
             results: []
         };
         this.queryDB = this.queryDB.bind(this); // TODO: why needed?? https://stackoverflow.com/questions/45998744/react-this-state-is-undefined
-
     }
 
     public setUni(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -76,27 +45,20 @@ class FilterForm extends React.Component<{}, IFilterFormState> {
         let newState = {
             uni: this.state.uni,
             tipo: event.target.value,
-            area: this.state.tipo,
+            area: this.state.area,
             results: this.state.results
         }
         this.setState(newState);
     }
 
-
-    //public queryDB(uni: string, area: string, tipo: string){ // TODO: this should receive the 3 parameters and return a list of degrees (list of strings) that should be then rendered
-    public queryDB() { // TODO: this should receive the 3 parameters and return a list of degrees (list of strings) that should be then rendered
-
-        //uni=this.state."Universidad de Sevilla"
-        //const area="Ingeniería"
-        //area="Ciencias"
-        //tipo="Máster"
+    public queryDB() { 
 
         //var res = []
         const res: [string, string][] = [];
         for (var i = 0; i < data.length; i++) {
 
             var obj = data[i];
-            //console.log(obj);
+            console.log(obj);
 
             if (obj["university"] === this.state.uni) {
 
@@ -119,8 +81,6 @@ class FilterForm extends React.Component<{}, IFilterFormState> {
                     else if (this.state.tipo === "Grado" && !univ_degrees[j]["name"].includes("Máster") && this.state.area === univ_degrees[j]["area"]) {
                         res.push([univ_degrees[j]["name"], uniWeb])
                     }
-
-
                 }
             }
         }
@@ -167,21 +127,12 @@ class FilterForm extends React.Component<{}, IFilterFormState> {
 
                 <button style={{ marginTop: "15px" }} onClick={this.queryDB} type="button">Buscar</button>
 
-                {/*
-                    <div style={{marginTop: "15px"}}>
-                        <p>{this.state.results}</p>
-                    </div>
-                    */}
-
                 <div style={{ marginTop: "15px" }}>
                     {this.state.results.map(degreeResult =>
                         <div>
-                            <p>{degreeResult[0]} <a target="_blank" href={degreeResult[1]}>(Más Información)</a></p>
+                            <p>{degreeResult[0]} <a target="_blank" rel="noreferrer" href={degreeResult[1]}>(Más Información)</a></p>
                         </div>
                     )}
-
-
-
                 </div>
 
             </div>
