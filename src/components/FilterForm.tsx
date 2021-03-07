@@ -1,4 +1,5 @@
 import * as React from 'react';
+import University from '../styledComponents/University';
 
 //import data from './db.json'
 var data = require('./db.json'); // forward slashes will depend on the file location
@@ -9,6 +10,7 @@ var data = require('./db.json'); // forward slashes will depend on the file loca
 // Or actually, should I create another component and use redux for the comunications? it would be SearchResults
 
 interface IFilterFormProps {
+    university: string
     href: string;
     imgSrc: string;
     title: string;
@@ -33,11 +35,41 @@ class FilterForm extends React.Component<{}, {}> {
      //   this.state = {};
     //}
 
-    public queryDB(){
+    public queryDB(){ // TODO: this should receive the 3 parameters and return a list of degrees (list of strings) that should be then rendered
+        
+        const uni="Universidad de Sevilla"
+        
+        //const area="Ingeniería"
+        const area="Ciencia"
+        
+        const tipo="bachelorDegrees"
+        var res = []
         for (var i = 0; i < data.length; i++){
             var obj = data[i];
             console.log(obj);
+            if (obj["university"] === uni){
+                
+                console.log("")
+                console.log(obj)
+                console.log("")
+
+                var univ_degrees = obj[tipo]
+                console.log(univ_degrees)
+
+                for (var j = 0; j < univ_degrees.length; j++){
+                
+                    console.log(univ_degrees[j])
+
+                    if (univ_degrees[j].includes(area)){
+                
+                        res.push(univ_degrees[j])
+                
+                    }
+                }
+            }
         }
+        console.log(res);
+        return res
     }
 
     public render() {
@@ -60,15 +92,15 @@ class FilterForm extends React.Component<{}, {}> {
 
                     <div style={{marginTop: "5px"}}><label>Area </label>
                     <select >
-                        <option value="Arial">Ingenieria</option>
-                        <option value="Fantasy">Ciencias</option>
-                        <option value="Cursive">Administración</option>
+                        <option value="Ingeniería">Ingenieria</option>
+                        <option value="Ciencias">Ciencias</option>
+                        <option value="Administración">Administración</option>
                     </select></div>
 
                     <div style={{marginTop: "5px"}}><label>Tipo de Titulación</label>
                     <select >
-                        <option value="Master">Master</option>
-                        <option value="Grado">Grado</option>
+                        <option value="masterDegrees">Master</option>
+                        <option value="bachelorDegrees">Grado</option>
                     </select></div>
 
                     <button style={{marginTop: "15px"}} onClick={this.queryDB} type="button">Buscar</button>

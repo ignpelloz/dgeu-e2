@@ -1,14 +1,25 @@
-import Footer from './components/Footer'
+import Footer from './components/Footer' 
 import Menu from './components/Menu'
 import TopHeader from './components/TopHeader'
 import MainNav from './components/MainNav'
 import Introduction from './components/Introduction'
-import FilterForm from './components/FilterForm'
-import UniversityList from './styledComponents/UniversityList'
+import UniversityList from './styledComponents/UniversityList'// no necesitan estado global de redux
+import FilterForm from './containers/FilterForm' //utiliza store de redux
+import { Action, createStore } from 'redux';
+import IGlobalState, { initialState } from './states/globalState'
+import { Provider } from 'react-redux'
 
+//recibe un estado y una acción. Devuelve el resultado de aplicar al estado la acción
+const reducer = (state: IGlobalState = initialState, action: Action) => { 
+  return state;
+}
+
+// aqui se almacena el estado, a medida que la app evoluciona, se verán los cambios reflejados
+const store = createStore(reducer, initialState); 
 
 function App() {
   return (
+    <Provider store={store}>
     <body className="home page-template-default page page-id-15 wp-embed-responsive global-layout-no-sidebar slider-disabled">
 
       <div id="page" className="hfeed site">
@@ -79,6 +90,7 @@ function App() {
       </div>
       <a href="https://www.distritounicoandaluz.org/#page" className="scrollup" id="btn-scrollup" style={{ display: "none" }}><i className="fa fa-angle-up"></i></a>
     </body>
+    </Provider>
   );
 }
 export default App;
