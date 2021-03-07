@@ -1,10 +1,15 @@
 interface IGlobalState {
-    university: string;
+    uni: string,
+    tipo: string,
+    area: string
 }
 
 export default IGlobalState;
 
 export const initialState: IGlobalState = {
     //estado inicial, definir a mano
-    university: "Universidad de Sevilla"
+    uni: "Universidad de Sevilla",
+    tipo: "Máster",
+    area: "Ingeniería"
+
 }

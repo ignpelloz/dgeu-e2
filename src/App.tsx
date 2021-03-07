@@ -68,7 +68,7 @@ function App() {
 
                         <p>Mas info sobre el <strong>Distrito Unico Andaluz</strong>: <a href="https://www.juntadeandalucia.es/economiainnovacionyciencia/sguit/">https://www.juntadeandalucia.es/economiainnovacionyciencia/sguit/</a>#</p>
 
-                        <FilterForm/>
+                        <FilterForm />
 
                         {/* REFACTORING SHOULD END HERE */}
 

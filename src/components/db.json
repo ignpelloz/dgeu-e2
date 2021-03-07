@@ -1,153 +1,182 @@
 [{
     "university": "Universidad de Almería",
-    "masterDegrees": [
-      "Máster en Agua y Medio Ambiente en Áreas Semiáridas",
-      "Máster en Biotecnología Industrial y Agroalimentaria",
-      "Máster en Evaluación del Cambio Global",
-      "Máster en Genética y Evolución",
-      "Máster en Informática Avanzada e Industrial",
-      "Máster en Innovación y Tecnología de Invernaderos",
-      "Máster en Matemáticas",
-      "Máster en Producción Vegetal en Cultivos Protegidos",
-      "Máster en Química",
-      "Máster en Representación y Diseño en Ingeniería y Arquitectura"
-    ],
-    "bachelorDegrees": [
-      "Grado en Ciencias Ambientales",
-      "Grado en Ingeniería Agrícola",
-      "Grado en Ingeniería Electrónica Industrial",
-      "Grado en Ingeniería Informática",
-      "Grado en Ingeniería Mecánica",
-      "Grado en Ingeniería Química Industrial",
-      "Grado en Matemáticas",
-      "Grado en Química"
+    "degrees": [
+      {"name":"Máster en Educación Especial","area":"Otros"},
+      {"name":"Máster en Investigación y Evaluación Didáctica en el Aula para el Desarrollo Profesional Docente","area":"Otros"},
+      {"name":"Máster en Producción Vegetal en Cultivos Protegidos","area":"Ciencias"},
+      {"name":"Máster en Química","area":"Ciencias"},
+      {"name":"Máster en Contabilidad y Finanzas Corporativas","area":"Otros"},
+      {"name":"Máster en Dirección de Empresas","area":"Otros"},
+      {"name":"Grado en Estudios Ingleses (Plan 2010)","area":"Otros"},
+      {"name":"Grado en Humanidades (Plan 2010)","area":"Otros"},
+      {"name":"Grado en Psicología (Plan 2010)","area":"Ciencias"},
+      {"name":"Grado en Marketing e Investigación de Mercados (Plan 2010)","area":"Otros"},
+      {"name":"Grado en Administración y Dirección de Empresas (Plan 2010)","area":"Otros"},
+      {"name":"Grado en Turismo (Plan 2010)","area":"Otros"},
+      {"name":"Grado en Educación Social","area":"Otros"},
+      {"name":"Grado en Ciencias Ambientales","area":"Ciencias"},
+      {"name":"Grado en Ingeniería Química Industrial","area":"Ingeniería"},
+      {"name":"Grado en Matemáticas","area":"Ciencias"},
+      {"name":"Grado en Química","area":"Ciencias"}
     ]
   },
   {
     "university": "Universidad de Cadiz",
-    "masterDegrees": ["Máster Universitario en Contabilidad y Auditoría",
-      "Máster Universitario en Dirección de Empresas",
-      "Máster Universitario en Creación de Empresas, Nuevos Negocios y Proyectos Innovadores",
-      "Máster en Dirección de los Recursos Humanos"
-    ],
-    "bachelorDegrees": ["Administración y Dirección de Empresas",
-      "Finanzas y Contabilidad"
+    "degrees": [
+      {"name":"Máster Universitario en Contabilidad y Auditoría","area":"Otros"},
+      {"name":"Máster Universitario en Dirección de Empresas","area":"Otros"},
+      {"name":"Máster Universitario en Creación de Empresas, Nuevos Negocios y Proyectos Innovadores","area":"Otros"},
+      {"name":"Máster en Dirección de los Recursos Humanos","area":"Otros"},
+      {"name":"Administración y Dirección de Empresas","area":"Otros"},
+      {"name":"Finanzas y Contabilidad","area":"Otros"},
+      {"name":"Biotecnología","area":"Ciencias"},
+      {"name":"Enología","area":"Ciencias"},
+      {"name":"Ingeniería Química","area":"Ingeniería"},
+      {"name":"Matemáticas","area":"Ciencias"},
+      {"name":"Educación Infantil","area":"Otros"},
+      {"name":"Química","area":"Ciencias"},
+      {"name":"Ciencias de la Actividad Física y del Deporte","area":"Ciencias"},
+      {"name":"Educación Primaria","area":"Otros"},
+      {"name":"Psicología","area":"Ciencias"},
+      {"name":"Filología Hispánica","area":"Otros"},
+      {"name":"Humanidades","area":"Otros"},
+      {"name":"Lingüística y Lenguas Aplicadas","area":"Otros"},
+      {"name":"Doble Grado en Filología Clásica y Estudios Ingleses","area":"Otros"}
     ]
   },
   {
     "university": "Universidad de Córdoba",
-    "masterDegrees": ["Máster en Medicina, Sanidad y Mejora Animal",
-      "Máster en Vitivinicultura en Climas Cálidos (con la U. de Cádiz)",
-      "Máster en Agroalimentación",
-      "Máster en Zootecnia y Gestión Sostenible"
-    ],
-    "bachelorDegrees": ["Veterinaria",
-      "Ciencia y Tecnología de los Alimentos"
+    "degrees": [
+      {"name":"Máster en Medicina, Sanidad y Mejora Animal","area":"Ciencias"},
+      {"name":"Máster en Vitivinicultura en Climas Cálidos (con la U. de Cádiz)","area":"Ciencias"},
+      {"name":"Máster en Agroalimentación","area":"Ciencias"},
+      {"name":"Máster en Zootecnia y Gestión Sostenible","area":"Ciencias"},
+      {"name":"Veterinaria","area":"Ciencias"},
+      {"name":"Ciencia y Tecnología de los Alimentos","area":"Ciencias"},
+      {"name":"Medicina","area":"Ciencias"},
+      {"name":"Filología Hispánica","area":"Otros"},
+      {"name":"Estudios Ingleses","area":"Otros"},
+      {"name":"Historia","area":"Otros"},
+      {"name":"Traducción e Interpretación","area":"Otros"},
+      {"name":"Historia del Arte","area":"Otros"},
+      {"name":"Ingeniería Mecánica","area":"Ingeniería"}
     ]
   },
   {
     "university": "Universidad de Granada",
-    "masterDegrees": ["Máster Universitario en Artes Visuales y Educación",
-      "Máster Universitario en Producción e Investigación en Arte",
-      "Máster Universitario en Dibujo: Creación Artística, Producción y Difusión",
-      "Máster  en Museología (Propio)"
-    ],
-    "bachelorDegrees": ["Bellas Artes",
-      "Conservación y Restauración de Bienes Culturales"
+    "degrees": [
+      {"name":"Máster Universitario en Artes Visuales y Educación","area":"Otros"},
+      {"name":"Máster Universitario en Producción e Investigación en Arte","area":"Otros"},
+      {"name":"Máster Universitario en Dibujo: Creación Artística, Producción y Difusión","area":"Otros"},
+      {"name":"Máster  en Museología (Propio)","area":"Otros"},
+      {"name":"Máster en Ingeniería Geológica Aplicada a la Obra Civil","area":"Ingeniería"},
+      {"name":"Máster en Matemáticas","area":"Ciencias"},
+      {"name":"Máster en Microbiología","area":"Ciencias"},
+      {"name":"Bellas Artes","area":"Otros"},
+      {"name":"Conservación y Restauración de Bienes Culturales","area":"Ciencias"},
+      {"name":"Ciencias de la Actividad Física y el Deporte","area":"Ciencias"},
+      {"name":"Ciencias Ambientales","area":"Ciencias"},
+      {"name":"Estadística","area":"Ciencias"},
+      {"name":"Física","area":"Ciencias"},
+      {"name":"Geología","area":"Ciencias"},
+      {"name":"Ingeniería Electrónica Industrial","area":"Ingeniería"},
+      {"name":"Ingeniería Química","area":"Ingeniería"},
+      {"name":"Ingeniería Informática y Matemáticas","area":"Ingeniería"},
+      {"name":"Matemáticas","area":"Ciencias"}
     ]
   },
   {
     "university": "Universidad de Jaén",
-    "masterDegrees": ["Máster Universitario en Abogacía",
-      "Máster Universitario en Administración de Empresas",
-      "Máster Universitario en Ciencias Jurídicas",
-      "Máster Universitario en Dependencia e Igualdad en la Autonomía Personal",
-      "Máster Universitario en Economía y Desarrollo Territorial (Interuniversitario)",
-      "Máster Universitario en Investigación en Artes, Música y Educación Estética",
-      "Máster Universitario en Marketing y Comportamiento del Consumidor (Interuniversitario)",
-      "Máster Universitario en Prevención de Riesgos Laborales",
-      "Máster Universitario en Profesorado de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanza de Idiomas",
-      "Máster Universitario en Turismo, Arqueología y Naturaleza"
-    ],
-    "bachelorDegrees": ["Doble titulación de Grado en Administración y Dirección de Empresas y Grado en Derecho",
-      "Grado en Administración y Dirección de Empresas",
-      "Grado en Derecho",
-      "Grado en Estadística y Empresa",
-      "Grado en Finanzas y Contabilidad",
-      "Grado en Gestión y Administración Pública",
-      "Grado en Relaciones Laborales y Recursos Humanos",
-      "Grado en Turismo"
+    "degrees": [
+      {"name":"Máster Universitario en Abogacía","area":"Otros"},
+      {"name":"Máster Universitario en Dependencia e Igualdad en la Autonomía Personal","area":"Otros"},
+      {"name":"Máster Universitario en Marketing y Comportamiento del Consumidor (Interuniversitario)","area":"Otros"},
+      {"name":"Máster Universitario en Prevención de Riesgos Laborales","area":"Otros"},
+      {"name":"Máster Universitario en Turismo, Arqueología y Naturaleza","area":"Otros"},
+      {"name":"Máster Universitario en Biotecnología y Biomedicina","area":"Ciencias"},
+      {"name":"Doble titulación de Grado en Administración y Dirección de Empresas y Grado en Derecho","area":"Otros"},
+      {"name":"Grado en Administración y Dirección de Empresas","area":"Otros"},
+      {"name":"Grado en Ciencias Ambientales","area":"Ciencias"},
+      {"name":"Grado en Educación Infantil","area":"Otros"},
+      {"name":"Grado en Ingeniería Electrónica Industrial","area":"Ingeniería"},
+      {"name":"Grado en Educación Primaria","area":"Otros"},
+      {"name":"Grado en Derecho","area":"Otros"},
+      {"name":"Grado en Estadística y Empresa","area":"Otros"},
+      {"name":"Grado en Finanzas y Contabilidad","area":"Otros"},
+      {"name":"Grado en Gestión y Administración Pública","area":"Otros"},
+      {"name":"Grado en Relaciones Laborales y Recursos Humanos","area":"Otros"},
+      {"name":"Grado en Turismo","area":"Otros"}
     ]
   },
   {
     "university": "Universidad de Huelva",
-    "masterDegrees": ["Máster Oficial en Ciencia y Tecnología Química",
-      "Máster Oficial Eurheo (European Master In Engineering Rheology)",
-      "Máster Oficial en Formulación y Tecnología del Producto: Aplicación a la Industria Química, Agroalimentaria y Farmaucéutica",
-      "Máster Oficial en Geología y Gestión Ambiental de los Recursos Minerales",
-      "Máster Oficial en Ingeniería e Instrumentación Nuclear",
-      "Máster Oficial en Tecnología Ambiental"
-    ],
-    "bachelorDegrees": ["Ciencias Ambientales",
-      "Geología",
-      "Química",
-      "Doble Grado en Ciencias Ambientales y Geología"
+    "degrees": [
+      {"name":"Máster Oficial en Ciencia y Tecnología Química","area":"Ciencias"},
+      {"name":"Máster Oficial Eurheo (European Master In Engineering Rheology)","area":"Ciencias"},
+      {"name":"Máster Oficial en Formulación y Tecnología del Producto: Aplicación a la Industria Química, Agroalimentaria y Farmaucéutica","area":"Ciencias"},
+      {"name":"Máster Oficial en Geología y Gestión Ambiental de los Recursos Minerales","area":"Ciencias"},
+      {"name":"Máster Oficial en Ingeniería e Instrumentación Nuclear","area":"Ingeniería"},
+      {"name":"Máster Oficial en Tecnología Ambiental","area":"Ciencias"},
+      {"name":"Ciencias Ambientales","area":"Ciencias"},
+      {"name":"Geología","area":"Ciencias"},
+      {"name":"Historia","area":"Ciencias"},
+      {"name":"Humanidades","area":"Otros"},
+      {"name":"Filología Hispánica","area":"Otros"},
+      {"name":"Química","area":"Ciencias"},
+      {"name":"Doble Grado en Ciencias Ambientales y Geología","area":"Ciencias"}
     ]
   },
   {
     "university": "Universidad de Málaga",
-    "masterDegrees": ["Máster en Biología Celular y Molecular",
-      "Máster en Biotecnología Avanzada",
-      "Máster en Matemáticas",
-      "Máster en Química Avanzada. Preparación y Caracterización de Materiales",
-      "Máster en Recursos Hídricos y Medio Ambiente"
-    ],
-    "bachelorDegrees": ["Grado en Bellas Artes",
-      "Grado en Matemáticas",
-      "Grado en Química",
-      "Grado en Biología",
-      "Grado en Ingeniería Química",
-      "Grado en Ciencias Ambientales",
-      "Grado en Bioquímica"
+    "degrees": [
+      {"name":"Máster en Biología Celular y Molecular","area":"Ciencias"},
+      {"name":"Máster en Matemáticas","area":"Ciencias"},
+      {"name":"Máster en Química Avanzada. Preparación y Caracterización de Materiales","area":"Ciencias"},
+      {"name":"Máster en Recursos Hídricos y Medio Ambiente","area":"Otros"},
+      {"name":"Grado en Bellas Artes","area":"Otros"},
+      {"name":"Grado en Matemáticas","area":"Ciencias"},
+      {"name":"Grado en Biología","area":"Ciencias"},
+      {"name":"Grado en Ingeniería Química","area":"Ingeniería"},
+      {"name":"Grado en Bioquímica","area":"Ciencias"},
+      {"name":"Grado en Economía","area":"Ciencias"},
+      {"name":"Grado en Ingeniería Química","area":"Ingeniería"},
+      {"name":"Grado en Ciencias Ambientales","area":"Ciencias"},
+      {"name":"Grado en Bioquímica","area":"Ciencias"}
     ]
   },
   {
     "university": "Universidad Pablo de Olavide",
-    "masterDegrees": ["Máster en Arte, Museos y Gestión del Patrimonio Histórico",
-      "Máster en Ciencias Sociales e Intervención Social",
-      "Máster en Comunicación Internacional, Traducción e Interpretación",
-      "Máster en Derechos Humanos, Interculturalidad y Desarrollo",
-      "Máster en Desarrollo Económico y Sostenibilidad",
-      "Máster en Enseñanza Bilingüe",
-      "Máster en Enseñanza de Español como Lengua Extranjera",
-      "Máster en Historia de América Latina. Mundos Indígenas",
-      "Máster en Historia de Europa, el Mundo Mediterráneo y su Difusión Atlántica: Métodos, Teorías y Nuevas Líneas de Investigación (1492-2000)",
-      "Máster en Religiones y Sociedades"
-    ],
-    "bachelorDegrees": ["Humanidades",
-      "Geografía e Historia",
-      "Traducción e Interpretación",
-      "Doble Humanidades y Traducción e Interpretación"
+    "degrees": [
+      {"name":"Máster en Comunicación Internacional, Traducción e Interpretación","area":"Otros"},
+      {"name":"Máster en Historia de América Latina. Mundos Indígenas","area":"Otros"},
+      {"name":"Máster en Religiones y Sociedades","area":"Otros"},
+      {"name":"Máster en Abogacía","area":"Otros"},
+      {"name":"Humanidades","area":"Otros"},
+      {"name":"Geografía e Historia","area":"Otros"},
+      {"name":"Traducción e Interpretación","area":"Otros"},
+      {"name":"Trabajo Social","area":"Otros"},
+      {"name":"Biotecnología","area":"Ciencias"},
+      {"name":"Ingeniería Informática en Sistemas de Información","area":"Ingeniería"},
+      {"name":"Nutrición Humana y Dietética","area":"Ciencias"},
+      {"name":"Ciencias Ambientales","area":"Ciencias"},
+      {"name":"Derecho","area":"Otros"}
     ]
   },
   {
     "university": "Universidad de Sevilla",
-    "masterDegrees": ["Máster Universitario en Automática, Robótica y Telemática (R.D.1393/07)",
-      "Máster Universitario en Diseño Avanzado en Ingeniería Mecánica (R.D.1393/07)",
-      "Máster Universitario en Electrónica, Tratamiento de Señal y Comunicaciones (R.D.1393/07)",
-      "Máster Universitario en Ingeniería Ambiental (R.D.1393/07)",
-      "Máster Universitario en Organización Industrial y Gestión de Empresas (R.D.1393/07)",
-      "Máster Universitario en Sistemas de Energía Eléctrica (R.D.1393/07)",
-      "Máster Universitario en Sistemas de Energía Térmica (R.D.1393/07)"
-    ],
-    "bachelorDegrees": ["Grado en Ingeniería Aeroespacial",
-      "Grado en Ingeniería Civil",
-      "Grado en Ingeniería de la Energía por la Un. de Sevilla y la Un. de Málaga",
-      "Grado en Ingeniería de las Tecnologías de Telecomunicación",
-      "Grado en Ingeniería de Organización Industrial por la U. Málaga y U.Sevilla",
-      "Grado en Ingeniería de Tecnologías Industriales",
-      "Grado en Ingeniería Electrónica, Robótica y Mecatrónica (UMA-US)",
-      "Grado en Ingeniería Química"
+    "degrees": [
+      {"name":"Máster Universitario en Automática, Robótica y Telemática (R.D.1393/07)","area":"Ingeniería"},
+      {"name":"Máster Universitario en Ingeniería Ambiental (R.D.1393/07)","area":"Ingeniería"},
+      {"name":"Máster Universitario en Economía y Desarrollo (R.D.1393/07)","area":"Otros"},
+      {"name":"Máster Universitario en Actividad Física y Calidad de Vida de Personas Adultas y Mayores (RD.1393/2007)","area":"Otros"},
+      {"name":"Máster Universitario en Sistemas de Energía Térmica (R.D.1393/07)","area":"Ciencias"},
+      {"name":"Máster Universitario en Ingeniería Informática","area":"Ingeniería"},
+      {"name":"Grado en Ingeniería Aeroespacial","area":"Ingeniería"},
+      {"name":"Doble Grado en Derecho y en Economía","area":"Ciencias"},
+      {"name":"Grado en Bellas Artes","area":"Otros"},
+      {"name":"Grado en Biología","area":"Ciencias"},
+      {"name":"Doble Grado en Educación Primaria y Estudios Franceses","area":"Otros"},
+      {"name":"Grado en Ingeniería Química","area":"Ingeniería"}
     ]
   }
 ]

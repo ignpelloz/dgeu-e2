@@ -4,7 +4,7 @@ import FilterForm from '../components/FilterForm';
 import IGlobalState from '../states/globalState';
 
 const mapStateToProps = (state:IGlobalState) => {
-    return({university: state.university}) //las propiedades del componente FilterForm
+    return({university: state.uni}) //las propiedades del componente FilterForm
     //crea esa propiedad a partir de la información del estado global
 }
 
