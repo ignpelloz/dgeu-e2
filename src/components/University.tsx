@@ -1,11 +1,25 @@
 import * as React from 'react';
 
-interface IUniversityProps {
+export interface IUniversityClasses<T> {
+    one: T;
+    two: T;
+    three: T;
+    four: T;
+    five: T;
+    six: T;
+    seven: T;
+    eight: T;
+    nine: T;
+    ten: T;
+}
+
+export interface IUniversityProps {
     href: string;
     imgSrc: string;
     title: string;
     uniText: string;
     wrapperItemCounter: string;
+    classes: IUniversityClasses<string>;
 }
 
 interface IUniversityState {
@@ -29,9 +43,38 @@ class University extends React.Component<IUniversityProps, IUniversityState> {
         };
     }
 
+    public toIF(wpCounter: string) {
+        /*
+        Convierte string en 
+        */
+        switch (wpCounter) {
+            case "one":
+                return this.props.classes.one
+            case "two":
+                return this.props.classes.two
+            case "three":
+                return this.props.classes.three
+            case "four":
+                return this.props.classes.four
+            case "five":
+                return this.props.classes.five
+            case "six":
+                return this.props.classes.six
+            case "seven":
+                return this.props.classes.seven
+            case "eight":
+                return this.props.classes.eight
+            case "nine":
+                return this.props.classes.nine
+            case "ten":
+                return this.props.classes.ten
+        }
+    }
+
     public render() {
+        let wpCount = this.toIF(this.state.wrapperItemCounter);
         return ( 
-            <div className={this.state.wrapperItemCounter}> {/*TODO: do this with react-jss*/}
+            <div className={wpCount}> {/*TODO: do this with react-jss*/}
             <p>
                 <a href={this.state.href} target="_blank" rel="noopener noreferrer">
                     <img loading="lazy" className="aligncenter" title={this.state.title} src={this.state.imgSrc} alt={this.state.title} width="105" height="105" />
